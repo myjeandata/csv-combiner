@@ -1,31 +1,26 @@
-# CSV 데이터 통합 & 기본 통계 분석 (자동 실행)
+# CSV Combiner
 
-## 개요
-- /data 폴더의 CSV 파일들(`file*.csv`)을 자동으로 합칩니다.
-- 합쳐진 데이터에서 `age` 컬럼의 **평균**과 **합계를** 계산합니다.
-- 결과는 CSV/Excel 파일로 저장됩니다.
+이 프로젝트는 여러 개의 CSV 파일을 하나로 합쳐주는 자동화 도구입니다.  
+반복되는 데이터 처리 작업을 줄이고, 빠르게 분석할 수 있도록 설계되었습니다.
 
-## 실행 방법
-1) VS Code 하단 터미널에서 위치 이동  
-2) 자동 실행  
-3) 정상 실행 시 터미널 예시
+## 주요 기능
+- 여러 CSV 파일을 자동으로 불러와 하나의 파일로 합치기
+- 합친 데이터를 새로운 CSV 파일로 저장
+- 기본적인 매출 분석 기능 포함 (예: 합계, 평균 계산)
 
-## 입력 규칙
-- /data 폴더에 **file1.csv, file2.csv, …** 형태의 CSV를 넣습니다.
-- CSV에는 최소한 `age` 컬럼이 있어야 합니다. (정수/실수)
+## 파일 설명
+- `combine_files.py`: CSV 파일들을 하나로 합치는 스크립트
+- `analyze_sales.py`: 합쳐진 데이터를 분석하는 스크립트
+- `create_fake_sales.py`: 연습용 가짜 CSV 데이터를 생성하는 스크립트
+- `combined_sales.csv`: 합쳐진 결과 파일 (샘플)
 
-## 생성되는 파일
-- `combined_sales.csv` : 모든 CSV를 합친 결과
-- `sales_summary.csv` : 평균/합계 요약(CSV)
-- `sales_summary.xlsx` : 평균/합계 요약(Excel)
+## 사용 방법
+1. Python 3 설치
+2. 저장소 클론 또는 다운로드
+3. 명령어 실행:
 
-## 폴더 구조(예)
+## 라이선스
+이 프로젝트는 자유롭게 사용할 수 있습니다.
 
-## 스크린샷 가이드
-- `img/01_run.png` : 터미널에 `python run_all.py` 실행 후 "평균/합계/완료"가 출력된 화면
-- `img/02_summary.png` : Excel에서 `sales_summary.xlsx`가 열린 화면(average_age, total_age가 보이게)
-- img/result.png : 분석 결과 이미지
 
-## 참고
-- `age` 컬럼명이 다를 경우, `run_all.py` 안의 `df["age"]`를 실제 컬럼명으로 변경하면 됩니다.
 
