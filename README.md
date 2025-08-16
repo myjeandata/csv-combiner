@@ -1,4 +1,8 @@
 [한국어 버전 보기](README_ko.md)
+## Reports
+
+- [English Sales Analysis Report](sales_analysis.md)  
+- [한국어 판매 분석 보고서](sales_analysis_ko.md)
 
 ---
 
@@ -34,6 +38,7 @@ It leverages Python, pandas, and matplotlib to simplify repetitive data processi
 
 ### Requirements
 Python 3.9+ recommended, with the following libraries:
+
 
 
 
