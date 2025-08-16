@@ -1,26 +1,41 @@
-# CSV Combiner
 
-이 프로젝트는 여러 개의 CSV 파일을 하나로 합쳐주는 자동화 도구입니다.  
-반복되는 데이터 처리 작업을 줄이고, 빠르게 분석할 수 있도록 설계되었습니다.
+---
 
-## 주요 기능
-- 여러 CSV 파일을 자동으로 불러와 하나의 파일로 합치기
-- 합친 데이터를 새로운 CSV 파일로 저장
-- 기본적인 매출 분석 기능 포함 (예: 합계, 평균 계산)
+## English Version
 
-## 파일 설명
-- `combine_files.py`: CSV 파일들을 하나로 합치는 스크립트
-- `analyze_sales.py`: 합쳐진 데이터를 분석하는 스크립트
-- `create_fake_sales.py`: 연습용 가짜 CSV 데이터를 생성하는 스크립트
-- `combined_sales.csv`: 합쳐진 결과 파일 (샘플)
+### Overview
+This project combines multiple CSV files into one dataset and analyzes sales data to automatically generate summary reports and visualizations.  
+It leverages Python, pandas, and matplotlib to simplify repetitive data processing tasks.
 
-## 사용 방법
-1. Python 3 설치
-2. 저장소 클론 또는 다운로드
-3. 명령어 실행:
+---
 
-## 라이선스
-이 프로젝트는 자유롭게 사용할 수 있습니다.
+### Features
+- Merge multiple CSV files
+- Summarize sales by date/product
+- Automatically generate Excel reports
+- Visualize sales with charts
+
+---
+
+### How to Use
+1. Run `combine_files.py` → Merge CSV files  
+2. Run `analyze_sales.py` → Generate sales summary and charts  
+3. Check results in the `output/` folder  
+
+---
+
+### Sample Output
+- Combined CSV file: `output/combined.csv`  
+- Sales summary report: `output/sales_summary.xlsx`  
+- Sales chart: ![Sales Chart](./output/sales_chart.png)
+
+---
+
+### Requirements
+Python 3.9+ recommended, with the following libraries:
+
+
+
 
 
 
