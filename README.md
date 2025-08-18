@@ -50,6 +50,12 @@ Python 3.9+ recommended, with the following libraries:
 - 차트 생성 코드: [charts.py](charts.py)
 - 데이터 파일: [combined_sales.csv](combined_sales.csv)
 
+## 📈 Charts (Preview)
+
+![Monthly Sales Trend](data/img/01_monthly_sales.png)
+
+![Top Products by Sales](data/img/02_sales_by_product.png)
+
 
 
 
