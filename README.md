@@ -1,4 +1,8 @@
 [한국어 버전 보기](README_ko.md)
+
+## Portfolio
+👉 [프로젝트 전체 보기](https://github.com/myjeandata/csv-combiner)
+
 ## Reports
 
 - [English Sales Analysis Report](sales_analysis.md)  
