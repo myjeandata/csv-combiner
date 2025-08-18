@@ -14,6 +14,12 @@ It highlights product-level revenue, monthly sales patterns, and key areas for i
 - Consider **bundle promotions including Product B** to raise its contribution.
 - Maintain focus on **Product C** as a growth driver and monitor its long-term trend.
 
+## Charts
+
+![Monthly Sales Trend](data/img/01_monthly_sales.png)
+
+![Top Products by Sales](data/img/02_sales_by_product.png)
+
 ---
 [한국어 버전 보기](sales_summary_ko.md)
 

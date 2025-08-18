@@ -14,5 +14,11 @@
 - **제품 B와의 묶음 프로모션**을 고려해 매출 기여도를 높입니다.
 - **제품 C**를 성장 동력으로 삼고 장기적인 추세를 지속적으로 모니터링합니다.
 
+## 차트
+
+![월별 매출 추세](data/img/01_monthly_sales.png)
+
+![제품별 매출 상위](data/img/02_sales_by_product.png)
+
 ---
 [English Version](sales_summary.md)
