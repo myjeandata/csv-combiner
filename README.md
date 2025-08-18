@@ -60,6 +60,8 @@ Python 3.9+ recommended, with the following libraries:
 
 ![Top Products by Sales](data/img/02_sales_by_product.png)
 
+_Last updated: 2025-08-17_
+
 
 
 
