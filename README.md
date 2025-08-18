@@ -30,9 +30,13 @@ It leverages Python, pandas, and matplotlib to simplify repetitive data processi
 ---
 
 ### Sample Output
-- Combined CSV file: `output/combined.csv`  
-- Sales summary report: `output/sales_summary.xlsx`  
-- Sales chart: ![Sales Chart](./output/sales_chart.png)
+- Combined CSV file: `output/combined.csv`
+- Sales summary report: `output/sales_summary.xlsx`
+
+### 📈 Charts (Preview)
+![Monthly Sales Trend](data/img/01_monthly_sales.png)
+![Top Products by Sales](data/img/02_sales_by_product.png)
+
 
 ---
 
