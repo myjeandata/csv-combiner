@@ -39,6 +39,17 @@ It leverages Python, pandas, and matplotlib to simplify repetitive data processi
 ### Requirements
 Python 3.9+ recommended, with the following libraries:
 
+## 📊 Reports & Analysis
+
+- [Sales Summary Report (English)](sales_summary.md)
+- [매출 요약 보고서 (한국어)](sales_summary_ko.md)
+- [Sales Analysis (English)](sales_analysis.md)
+- [매출 분석 보고서 (한국어)](sales_analysis_ko.md)
+
+## 📈 Charts
+- 차트 생성 코드: [charts.py](charts.py)
+- 데이터 파일: [combined_sales.csv](combined_sales.csv)
+
 
 
 
